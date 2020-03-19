@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha(){
+    document.write("<br>");
+}
+function mostra(frase){
+    document.write(frase);
+    pulaLinha();
+}
+ var mediaIdade = 28;   
+ var chegadaPortugueses = 1500;
+ var anoAtual = 2020;
+ var anosPassados = (anoAtual -chegadaPortugueses);
+ var geracoes = (anosPassados / mediaIdade);
+    
+    mostra( Math.round(geracoes) + " geracoes se passaram desde " + chegadaPortugueses + " ate " + anoAtual);
+
+</script>
